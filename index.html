@@ -13,6 +13,8 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+button{-webkit-appearance:none;appearance:none;color:#000 !important}
+svg{fill:none;stroke:#000;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#fff;color:#000}
 
 .ig-wrap{max-width:470px;margin:0 auto;background:#fff;min-height:100vh;padding-bottom:60px;padding-top:env(safe-area-inset-top)}
@@ -35,15 +37,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
 /* Actions */
 .post-actions{display:flex;align-items:center;padding:0 12px;border-top:0.5px solid #efefef;border-bottom:0.5px solid #efefef;margin:4px 0}
-.action-group{display:flex;align-items:center;gap:5px;padding:9px 8px 9px 0;cursor:pointer;background:none;border:none;flex-shrink:0}
-.action-group svg{width:22px;height:22px;flex-shrink:0}
+.action-group{display:flex;align-items:center;gap:5px;padding:9px 8px 9px 0;cursor:pointer;background:none;border:none;flex-shrink:0;color:#000;-webkit-appearance:none;appearance:none}
+.action-group svg{width:22px;height:22px;flex-shrink:0;stroke:#000;fill:none}
 .action-group img{width:22px;height:22px;object-fit:contain;flex-shrink:0}
 .action-count{font-size:13px;color:#262626;font-weight:400}
 .action-divider{width:0.5px;height:16px;background:#dbdbdb;margin:0 8px;flex-shrink:0}
 .action-spacer{flex:1}
-.bookmark-btn{background:none;border:none;cursor:pointer;padding:9px 0;display:flex;align-items:center}
-.bookmark-btn svg{width:22px;height:22px}
-
+.bookmark-btn{background:none;border:none;cursor:pointer;padding:9px 0;display:flex;align-items:center;color:#000;-webkit-appearance:none;appearance:none}
+.bookmark-btn svg{width:22px;height:22px;stroke:#000;fill:none}
+.post-more-btn{background:none;border:none;cursor:pointer;padding:8px 4px;display:flex;align-items:center;flex-shrink:0;color:#000;-webkit-appearance:none;appearance:none}
+.post-more-btn svg{width:20px;height:20px;stroke:none;fill:#000}
 /* Text */
 .post-caption{padding:8px 16px 6px;font-size:14px;color:#000;line-height:1.4}
 .post-caption .uname{font-weight:600}
